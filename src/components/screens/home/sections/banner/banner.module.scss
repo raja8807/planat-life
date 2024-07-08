@@ -1,0 +1,111 @@
+.BannerSection {
+  position: relative;
+  overflow: hidden;
+
+  .bg {
+    background-image: url("/coral_bg.jpg");
+    background-size: cover;
+    background-position: 0 -150px;
+    position: absolute;
+    height: 100dvh;
+    width: 100vw;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    // filter: blur(10px);
+
+    @include respond-below(xl) {
+      background-position: 0;
+    }
+    @include respond-below(md) {
+      background-position: center;
+    }
+
+    animation: zoom 40s infinite , focus 1s;
+  }
+
+  .wrap {
+    width: 100%;
+    // background-color: red;
+    height: 100dvh;
+    @include flexCenter;
+    text-align: center;
+    position: relative;
+
+    h1 {
+      color: white;
+      font-size: 70px;
+      background-color: rgba(128, 128, 128, 0.1);
+      padding: 10px;
+      max-width: 800px;
+      font-weight: 600;
+    }
+
+    .arrow {
+      position: absolute;
+      color: white;
+      bottom: 25px;
+      animation: focus 1s;
+      p {
+        font-size: 25px;
+      }
+
+      a {
+        color: white !important;
+        svg {
+          font-size: 45px;
+          animation: down 2s infinite;
+          cursor: pointer;
+        }
+      }
+    }
+  }
+
+  @include respond-below(md) {
+    .wrap {
+      h1 {
+        font-size: 50px;
+      }
+    }
+  }
+}
+
+@keyframes zoom {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.1);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+@keyframes focus{
+  0%{
+    filter: blur(10px);
+  }
+
+  100%{
+    filter: blur(0px);
+  }
+}
+
+
+@keyframes down {
+  0% {
+    transform: translate(0, 0);
+  }
+
+  80% {
+    transform: translate(0, 0);
+  }
+  90% {
+    transform: translate(0, 10px);
+  }
+
+  100% {
+    transform: translate(0, 0);
+  }
+}
