@@ -11,12 +11,12 @@ const BannerSection = () => {
   return (
     <div className={styles.BannerSection}>
       <CustomContainer>
-        <div className={styles.wrap} >
+        <div className={styles.wrap}>
           <h1 className={fonts.HeadFont} data-aos="fade-down">
             We have thousands of suns and moons, but only one Earth to cherish
           </h1>
 
-          <div className={styles.arrow} >
+          <div className={styles.arrow}>
             <Link href="#do_we_care">
               <p>Do We Really Care?</p>
               <ChevronDown />
@@ -24,7 +24,9 @@ const BannerSection = () => {
           </div>
         </div>
       </CustomContainer>
-      <div className={styles.bg}></div>
+      <div className={styles.bg}>
+        <div className={styles.overlay} />
+      </div>
     </div>
   );
 };

@@ -5,7 +5,7 @@
   .bg {
     background-image: url("/coral_bg.jpg");
     background-size: cover;
-    background-position: 0 -150px;
+    background-position: bottom;
     position: absolute;
     height: 100dvh;
     width: 100vw;
@@ -18,10 +18,16 @@
       background-position: 0;
     }
     @include respond-below(md) {
-      background-position: center;
+      background-position: bottom center;
     }
 
-    animation: zoom 40s infinite , focus 1s;
+    .overlay {
+      width: 100%;
+      height: 100%;
+      background-color: rgba(0, 0, 0,0.21);
+    }
+
+    animation: zoom 40s infinite, focus 1s;
   }
 
   .wrap {
@@ -35,10 +41,11 @@
     h1 {
       color: white;
       font-size: 70px;
-      background-color: rgba(128, 128, 128, 0.1);
+      background-color: rgba(0, 0, 0, 0.04);
       padding: 10px;
-      max-width: 800px;
-      font-weight: 600;
+      max-width: 900px;
+      font-weight: 300;
+      margin-bottom: 50px;
     }
 
     .arrow {
@@ -82,16 +89,15 @@
   }
 }
 
-@keyframes focus{
-  0%{
+@keyframes focus {
+  0% {
     filter: blur(10px);
   }
 
-  100%{
+  100% {
     filter: blur(0px);
   }
 }
-
 
 @keyframes down {
   0% {

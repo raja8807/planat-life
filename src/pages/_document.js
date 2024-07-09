@@ -5,7 +5,7 @@ export default function Document() {
     <Html lang="en">
       
       <Head />
-      <title>Yaja</title>
+      <title>Planat Life</title>
       <body >
         <Main />
         <NextScript />
