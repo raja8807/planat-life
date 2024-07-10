@@ -7,8 +7,10 @@ export const VCard = ({ data }) => {
   const { head, img, text } = data;
 
   return (
-    <div className={styles.VCard} >
-      <Image src={`/assets/images/${img}`} alt="temp" />
+    <div className={styles.VCard} data-aos="fade-left">
+      <div className={styles.img}>
+        <Image src={`/assets/images/${img}`} alt="temp" />
+      </div>
       <p>{head}</p>
       <small>{text}</small>
     </div>

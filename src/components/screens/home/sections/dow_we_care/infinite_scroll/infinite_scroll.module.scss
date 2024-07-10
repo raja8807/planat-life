@@ -4,31 +4,47 @@
   // align-items: center;
   //   padding-bottom: 50px;
   gap: 20px;
-  width: 250px;
-  //   margin: 30px 30px;
-  height: 450px;
-  //   text-align: center;
-  margin: 10px auto 36px auto;
+  width: 300px;
 
-  @include respond-below(sm) {
-    text-align: center;
+  //   background-color: red;
+  //   margin: 30px 30px;
+  //   height: 450px;
+  margin: 20px auto;
+  text-align: center;
+  //   border-radius: 20px;
+
+  .img {
+    border-radius: 20px;
+    overflow: hidden !important;
+    width: fit-content;
+    margin: auto;
+    img {
+      width: 280px;
+      height: 280px;
+      border-radius: 20px;
+      margin: auto;
+    }
   }
 
-  img {
-    width: 200px;
-    height: 200px;
-    border-radius: 50%;
-    margin: auto;
+  &:hover {
+    .img {
+      img {
+        transform: scale(1.1);
+      }
+    }
   }
 
   p {
     font-weight: bold;
     color: white;
+
     margin: 15px 0;
+    font-size: 20px;
   }
 
   small {
     color: $color_g1;
+    // font-size: 16px;
   }
 }
 

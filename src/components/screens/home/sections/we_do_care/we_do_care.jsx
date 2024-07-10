@@ -14,14 +14,19 @@ const WeDoCareSection = () => {
       <div className={styles.cont}>
         <CustomContainer>
           <SectionHeading
-            heading="A Vision for a Cleaner, Greener Planet"
+            heading={
+              <span>
+                A <span className={styles.sp}>Vision</span> for a Cleaner,{" "}
+                <span className={styles.sp2}>Greener</span> Planet
+              </span>
+            }
             variant={2}
           />
           <hr />
           <div className={styles.top}>
             <Row>
               <Col xs={12} lg={4}>
-                <div className={styles.topImg}>
+                <div className={styles.topImg} data-aos="fade-right">
                   <Image
                     src="/assets/images/eco-friendly-plastic.jpg"
                     fluid
@@ -31,9 +36,9 @@ const WeDoCareSection = () => {
               </Col>
               <Col xs={12} lg={8}>
                 <div className={styles.topText}>
-                  <div>
+                  <div data-aos="fade-left">
                     <h1 className={fonts.HeadFont}>
-                      Nature Made Plastics <span> (NAM)</span>
+                      Nature Made Plastics <span> (PHA)</span>
                     </h1>
                     <p>
                       Lorem ipsum dolor sit amet consectetur adipisicing elit.
@@ -51,15 +56,15 @@ const WeDoCareSection = () => {
                       inventore quia dignissimos necessitatibus iusto ratione
                       facilis iste, culpa debitis omnis saepe?
                     </p>
+                    <CustomButton>Know More</CustomButton>
                   </div>
-                  <CustomButton>Know More</CustomButton>
                 </div>
               </Col>
             </Row>
           </div>
         </CustomContainer>
       </div>
-      <ScrollToIdArrow text="Why NAM?" id="why_nam" />
+      <ScrollToIdArrow text="Why PHA?" id="why_nam" />
     </div>
   );
 };

@@ -1,6 +1,6 @@
 import {
-  // Abel as HeadFont,
-  Raleway as HeadFont,
+  Comfortaa as HeadFont,
+  // Raleway as HeadFont,
   Outfit,
   Bona_Nova as TitleFont,
   Great_Vibes as QuoteFont,
@@ -16,16 +16,16 @@ const outfit = Outfit({
 
 const headFont = HeadFont({
   weight: [
-    "400",
-    "100",
-    "200",
+    // "400",
+    // "100",
+    // "200",
     "300",
     "400",
     "500",
     "600",
     "700",
-    "800",
-    "900",
+    // "800",
+    // "900",
   ],
   subsets: ["latin"],
 });
@@ -42,9 +42,9 @@ const quoteFont = QuoteFont({
 });
 
 const fonts = {
-  MainFont: outfit.className,
+  MainFont: headFont.className,
   HeadFont: headFont.className,
-  TitleFont: titleFont.className,
-  QuoteFont: quoteFont.className,
+  TitleFont: headFont.className,
+  QuoteFont: headFont.className,
 };
 export default fonts;

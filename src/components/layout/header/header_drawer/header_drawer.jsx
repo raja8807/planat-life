@@ -6,20 +6,19 @@ import Link from "next/link";
 // import DownloadButtons from "@/components/download_button/download_button";
 
 const HeaderDrawer = ({ show, setShow, router }) => {
-
-
   // const PAGES = []
 
   return (
-    <Offcanvas show={show} placement="end">
+    <Offcanvas show={show} placement="end" className={styles.c}>
       <Offcanvas.Header
         className={styles.head}
         closeButton
         onHide={() => {
           setShow(false);
         }}
+        closeLabel="xxx"
       >
-        <Image src="/logo.png" alt="logo" fluid width={50} />
+        <Image src="/logo.png" alt="" fluid width={50} />
       </Offcanvas.Header>
       <Offcanvas.Body>
         <div className={styles.body}>

@@ -12,11 +12,19 @@ const BannerSection = () => {
     <div className={styles.BannerSection}>
       <CustomContainer>
         <div className={styles.wrap}>
-          <h1 className={fonts.HeadFont} data-aos="fade-down">
+          <h1
+            className={fonts.HeadFont}
+            data-aos="fade-down"
+            data-aos-delay="1000"
+          >
             We have thousands of suns and moons, but only one Earth to cherish
           </h1>
 
-          <div className={styles.arrow}>
+          <div
+            className={styles.arrow}
+            data-aos="fade-up"
+            data-aos-delay="2000"
+          >
             <Link href="#do_we_care">
               <p>Do We Really Care?</p>
               <ChevronDown />
@@ -24,6 +32,11 @@ const BannerSection = () => {
           </div>
         </div>
       </CustomContainer>
+      {/* <video autoPlay muted loop id="myVideo"  >
+        <source src="./bg5.mp4" type="video/mp4"></source>
+        Your browser does not support HTML5 video.
+        
+      </video> */}
       <div className={styles.bg}>
         <div className={styles.overlay} />
       </div>

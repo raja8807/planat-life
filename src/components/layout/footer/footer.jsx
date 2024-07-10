@@ -24,17 +24,17 @@ const Footer = () => {
   const PRODUCTS = [
     {
       id: "MANGO",
-      name: "MANGO",
+      name: "Service 1",
       mascot: "cheetah",
     },
     {
       id: "LYCHEE",
-      name: "LYCHEE",
+      name: "Service 2",
       mascot: "wolf",
     },
     {
       id: "STRAWBERRY",
-      name: "STRAWBERRY",
+      name: "Service 3",
       mascot: "tiger",
     },
   ];
@@ -45,7 +45,7 @@ const Footer = () => {
         <Row>
           <Col xs={12} md={6} lg={5}>
             <div className={`${styles.sec} ${styles.sec1}`}>
-              <Image src="/logo.png" alt="logo" width={50} />
+              {/* <Image src="/logo.png" alt="logo" width={50} /> */}
               <p>
                 Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsum
                 ad quos ratione asperiores qui molestiae itaque amet et
@@ -62,14 +62,14 @@ const Footer = () => {
                   <Link href={p.href}>{p.name}</Link>
                 </p>
               ))}
-              <p className={styles.links}>
+              {/* <p className={styles.links}>
                 <Link href="/admin">Admin</Link>
-              </p>
+              </p> */}
             </div>
           </Col>
           <Col xs={6} md={6} lg={2}>
             <div className={`${styles.sec} ${styles.sec2}`}>
-              <h4>Flavours</h4>
+              <h4>Services</h4>
               {PRODUCTS.map((p, i) => (
                 <p key={p.name} className={styles.links}>
                   <Link href={`/products?f=${i}`}>{p.name}</Link>

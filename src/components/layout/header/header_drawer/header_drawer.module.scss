@@ -1,8 +1,20 @@
+.c {
+ background-color: #28282B;
+}
+
+.head{
+  button{
+    background-color: white;
+  }
+}
+
 .body {
   display: flex;
   // justify-content: space-between;
   gap: 50px;
   flex-direction: column;
+  
+
   height: 100%;
   align-items: center;
   nav {
@@ -15,10 +27,10 @@
       width: 100%;
       padding: 10px;
       font-size: 17px;
-      color: black;
+      color: white;
       &:hover,
       &.active {
-        background-color: $color_o5;
+        background-color: $color_g2;
         color: white;
         font-weight: 600;
       }
