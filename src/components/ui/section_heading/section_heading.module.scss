@@ -5,8 +5,8 @@
   position: relative;
 
   h1 {
-    font-size: 60px;
-    font-weight: 600;
+    font-size: 55px;
+    font-weight: 200;
   }
   @include respond-below(md) {
     h1 {
@@ -20,5 +20,8 @@
 
   &.v2{
     color: white;
+  }
+  &.v3{
+    color: $color_g4;
   }
 }

@@ -22,11 +22,19 @@
     h3{
         color: $color_g4;
         font-size: 18px;
-        font-weight: 700;
+        font-weight: 400;
     }
 
     p{
         color: gray;
         font-size: 14px;
+    }
+
+    .img{
+        background-color: red;
+        height: 200px;
+        border-radius: 16px;
+        background-size: cover;
+        background-position: bottom;
     }
 }

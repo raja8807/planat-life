@@ -1,5 +1,5 @@
 import {
-  Comfortaa as HeadFont,
+  Josefin_Sans as HeadFont,
   // Raleway as HeadFont,
   Outfit,
   Bona_Nova as TitleFont,
@@ -16,9 +16,9 @@ const outfit = Outfit({
 
 const headFont = HeadFont({
   weight: [
-    // "400",
-    // "100",
-    // "200",
+    "400",
+    "100",
+    "200",
     "300",
     "400",
     "500",

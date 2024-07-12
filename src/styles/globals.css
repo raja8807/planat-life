@@ -1,8 +1,8 @@
 @import "~bootstrap/dist/css/bootstrap.min.css";
 
-body{
-  width:100dvw;
-  overflow-x:hidden;
+body {
+  width: 100dvw;
+  overflow-x: hidden;
 }
 
 * {
@@ -24,3 +24,8 @@ p {
   padding: 0;
 }
 
+.react-multi-carousel-dot button {
+  height: 9px !important;
+  width: 9px !important;
+  background-color: rgba(255, 255, 255, 0.7);
+}

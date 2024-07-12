@@ -9,7 +9,7 @@ const MultiCarousal = ({ cards }) => {
     desktop: {
       breakpoint: { max: 3000, min: 1200 },
       items: 3,
-      slidesToSlide: 3, // optional, default to 1.
+      slidesToSlide: 1, // optional, default to 1.
     },
     tablet: {
       breakpoint: { max: 1024, min: 768 },
@@ -31,8 +31,8 @@ const MultiCarousal = ({ cards }) => {
       <Carousel
         additionalTransfrom={0}
         arrows
-        autoPlay
-        autoPlaySpeed={4000}
+        // autoPlay
+        // autoPlaySpeed={4000}
         centerMode={false}
         className=""
         containerClass="container-with-dots"
@@ -42,7 +42,7 @@ const MultiCarousal = ({ cards }) => {
         infinite
         itemClass=""
         keyBoardControl
-        minimumTouchDrag={80}
+        minimumTouchDrag={50}
         pauseOnHover={true}
         renderArrowsWhenDisabled={false}
         renderButtonGroupOutside={true}
@@ -56,6 +56,7 @@ const MultiCarousal = ({ cards }) => {
         sliderClass=""
         slidesToSlide={1}
         swipeable
+        
       >
         {cards.map((c) => {
           return <VCard key={c.id} data={c} />;

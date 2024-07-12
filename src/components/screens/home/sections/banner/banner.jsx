@@ -14,7 +14,7 @@ const BannerSection = () => {
         <div className={styles.wrap}>
           <h1
             className={fonts.HeadFont}
-            data-aos="fade-down"
+            data-aos="fade-in"
             data-aos-delay="1000"
           >
             We have thousands of suns and moons, but only one Earth to cherish

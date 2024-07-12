@@ -38,25 +38,27 @@ const WeDoCareSection = () => {
                 <div className={styles.topText}>
                   <div data-aos="fade-left">
                     <h1 className={fonts.HeadFont}>
-                      Nature Made Plastics <span> (PHA)</span>
+                      <span>Nature Made Plastics</span>
+                      {/* <span> (PHA)</span> */}
                     </h1>
                     <p>
-                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                      Quas, error excepturi, amet laboriosam quibusdam labore
-                      dicta doloremque reiciendis quam est soluta sapiente. Quod
-                      odit facere officia quis, qui ipsam, cumque deleniti
-                      animi, totam in iusto veritatis temporibus quae ipsum
-                      mollitia ea? Eligendi itaque expedita ipsam esse minima,
-                      natus placeat. Exercitationem?
+                      We, a group of young environmental enthusiasts, have put
+                      in hard efforts over months to create sustainable
+                      alternatives to traditional plastics. We believe in
+                      harnessing the power of nature to develop products that
+                      meet high-performance standards while reducing our
+                      environmental footprint.
                     </p>
                     <br />
                     <p>
-                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                      Beatae at incidunt iure nesciunt, tempore eum est
-                      inventore quia dignissimos necessitatibus iusto ratione
-                      facilis iste, culpa debitis omnis saepe?
+                      Our extensive R&D efforts utilize agricultural by-products
+                      such as corn starch, sugarcane, and other renewable
+                      resources. This ensures our straws are strong, flexible,
+                      biodegradable, and compostable. Our approach significantly
+                      mitigates the harmful effects of plastic pollution and
+                      supports a circular economy.
                     </p>
-                    <CustomButton>Know More</CustomButton>
+                    {/* <CustomButton>Know More</CustomButton>  */}
                   </div>
                 </div>
               </Col>
@@ -64,7 +66,7 @@ const WeDoCareSection = () => {
           </div>
         </CustomContainer>
       </div>
-      <ScrollToIdArrow text="Why PHA?" id="why_nam" />
+      <ScrollToIdArrow text="Why Bio-Plastic?" id="why_nam" />
     </div>
   );
 };

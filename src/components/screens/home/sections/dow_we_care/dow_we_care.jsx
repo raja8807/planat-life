@@ -16,25 +16,25 @@ const DoWeCareSection = () => {
       id: "1",
       head: "Toxic Emissions",
       img: "emission.jpg",
-      text: "Plastic manufacturing processes release harmful chemicals and pollutants into the air.",
+      text: "Plastic manufacturing releases harmful chemicals and pollutants into the air.",
     },
     {
       id: "2",
       head: "Resource Depletion",
       img: "rig1.jpg",
-      text: "Plastics are primarily made from petroleum and natural gas, which are non-renewable resources.",
+      text: "They are made from non-renewable petroleum and natural gas resources.",
     },
     {
       id: "3",
       head: "Carbon Footprint",
       img: "climate.jpeg",
-      text: "The production generates significant greenhouse gas emissions, contributing to climate change.",
+      text: "Production generates greenhouse gases, contributing significantly to climate change.",
     },
     {
       id: "4",
       head: "Environmental Impact",
       img: "plastic.webp",
-      text: "Plastics take hundreds of years to decompose.",
+      text: "Plastics decompose over hundreds of years, persisting in the environment.",
     },
     {
       id: "5",
@@ -46,19 +46,19 @@ const DoWeCareSection = () => {
       id: "6",
       head: "Soil Contamination",
       img: "dry_land.jpg",
-      text: "Plastics affect soil health, reduce crop yields, and harm soil organisms.",
+      text: "Plastics harm soil health, reduce crop yields, and damage soil organisms.",
     },
     {
       id: "7",
       head: " Contamination of Food",
       img: "microplastic.jpg",
-      text: "Microplastics are found in salt, drinking water, and even the air we breathe, leading to human exposure.",
+      text: "Microplastics are found in salt, drinking water, and the air we breathe.",
     },
     {
       id: "8",
       head: "Health Effects",
       img: "inflamation.jpg",
-      text: "Potential health impacts include inflammation, cell damage, and disruption of endocrine systems due to the chemicals associated with microplastics.",
+      text: "Health impacts include inflammation, cell damage, and endocrine system disruption.",
     },
   ];
 
