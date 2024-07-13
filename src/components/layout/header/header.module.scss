@@ -90,6 +90,8 @@
 
       .btn {
         display: unset;
+      color: black;
+
       }
     }
   }
@@ -100,8 +102,7 @@
     background-color: transparent;
     backdrop-filter: none;
 
-    .btn{
-      color: black;
-    }
+    // .btn{
+    // }
   }
 }
