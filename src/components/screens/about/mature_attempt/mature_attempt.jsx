@@ -55,7 +55,7 @@ const MatureAttempt = () => {
         }}
       >
         <CustomButton href={"https://www.gviro.com/"} target="_blank">
-          Know More About Vashini
+          Know More About GreenViro
         </CustomButton>
       </div>
       <br />

@@ -17,7 +17,7 @@ const WhoWeAreSection = () => {
         <Row>
           <Col xs={12} lg={6}>
             <div data-aos="fade-left">
-              <h3>The Vashini Agro</h3>
+              {/* <h3>The Vashini Agro</h3> */}
               {/* <p>
                 Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fuga,
                 omnis velit enim, sapiente accusamus, commodi a distinctio

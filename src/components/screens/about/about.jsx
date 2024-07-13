@@ -8,6 +8,7 @@ import { Col, Image, Row } from "react-bootstrap";
 import VashiniCustomers from "./customers/customers";
 import Certificates from "./certificates/cetififcates";
 import MatureAttempt from "./mature_attempt/mature_attempt";
+import ProfessionalAttempt from "./professional_attempt/professional_attempt";
 
 const AboutScreen = () => {
   return (
@@ -28,8 +29,12 @@ const AboutScreen = () => {
         <hr />
         <br />
         <Certificates />
+        <br />
+        <MatureAttempt />
+        <br />
+        <ProfessionalAttempt />
         <br/>
-        <MatureAttempt/>
+        <br/>
       </CustomContainer>
     </div>
   );

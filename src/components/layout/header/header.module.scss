@@ -12,6 +12,8 @@
   .btn {
     display: unset;
     color: white;
+    background-color: hsla(162, 100%, 21%, 0.2);
+    border-radius: 4px;
   }
 
   .wrap {
@@ -70,11 +72,12 @@
     // }
 
     .btn {
-      width: 40px;
-      height: 40px;
+      width: 35px;
+      height: 35px;
       cursor: pointer;
       &:hover {
-        transform: scale(1.2);
+        transform: scale(1.1);
+        background-color: $color_g4;
       }
       // display: none;
     }
@@ -90,8 +93,7 @@
 
       .btn {
         display: unset;
-      color: black;
-
+        color: black;
       }
     }
   }
@@ -102,7 +104,8 @@
     background-color: transparent;
     backdrop-filter: none;
 
-    // .btn{
-    // }
+    .btn {
+      display: unset;
+    }
   }
 }

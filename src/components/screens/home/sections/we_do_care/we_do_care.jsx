@@ -28,7 +28,7 @@ const WeDoCareSection = () => {
               <Col xs={12} lg={4}>
                 <div className={styles.topImg} data-aos="fade-right">
                   <Image
-                    src="/assets/images/eco-friendly-plastic.jpg"
+                    src="/assets/images/granules.webp"
                     fluid
                     alt="eco-friendly-plastic"
                   />
