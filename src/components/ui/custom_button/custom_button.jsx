@@ -10,10 +10,11 @@ const CustomButton = ({
   disabled,
   isLoading,
   href,
+  target,
 }) => {
   if (href) {
     return (
-      <Link href={href}>
+      <Link href={href} target={target}>
         <button
           className={`${styles.customButton} ${styles[`v${variant}`]}`}
           onClick={onClick}

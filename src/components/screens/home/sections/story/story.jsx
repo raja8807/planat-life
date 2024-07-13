@@ -64,10 +64,19 @@ const OurStorySection = () => {
   return (
     <section className={styles.storySection}>
       <CustomContainer>
-        <SectionHeading heading="Who We Are?" />
-        {/* <br/> */}
-        <h2 data-aos="fade-up" data-aos-delay="100">The Virgin Attempt</h2>
-        <div className={`${styles.top}`} data-aos="fade-up" data-aos-delay="150">
+        {/* <SectionHeading heading="Who We Are?"  variant={3}/> */}
+        <br />
+        <h2 data-aos="fade-up" data-aos-delay="100">
+          The Virgin Attempt
+        </h2>
+        <div className={styles.logo}>
+          <Image src="vashini_logo.svg" fluid />
+        </div>
+        <div
+          className={`${styles.top}`}
+          data-aos="fade-up"
+          data-aos-delay="150"
+        >
           <p>
             Vashini Agro began as a small group of expert coconut farmers in
             India.

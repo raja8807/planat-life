@@ -18,7 +18,7 @@ const WhoWeAreSection = () => {
           <Col xs={12} lg={6}>
             <div data-aos="fade-left">
               <h3>The Vashini Agro</h3>
-              <p>
+              {/* <p>
                 Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fuga,
                 omnis velit enim, sapiente accusamus, commodi a distinctio
                 beatae laboriosam suscipit optio quasi! Reiciendis magnam
@@ -26,8 +26,7 @@ const WhoWeAreSection = () => {
                 blanditiis, error ipsam expedita voluptatem! Ullam ex aspernatur
                 ipsam quae nisi
               </p>
-                {/* <Link href='https://www.vashiniagro.com'>www.vashiniagro.com</Link> */}
-              {/* <br /> */}
+               
               <br />
               <h3>The GreenViro</h3>
               <p>
@@ -37,9 +36,24 @@ const WhoWeAreSection = () => {
                 energy-efficient and emits less CO2. This approach helps farmers
                 manage waste and offers the public a superior, eco-friendly
                 barbecue experience.
-              </p>
-              {/* <Link href='https://www.gviro.com/'>www.gviro.com</Link> */}
+              </p> */}
 
+              <p>
+                Decades ago, we began our journey trading in agricultural
+                products with a primary focus on profitability. As we delved
+                deeper into environmental issues, we realized the critical
+                importance of sustainable products and ecological solutions for
+                the well-being of our planet. This realization ignited our
+                passion and reshaped our vision. Rather than just profit, we
+                began measuring the positive impact we create. This shift brings
+                us immense joy and complete satisfaction, knowing we contribute
+                to a healthier and happier Earth.
+              </p>
+              <br />
+              <div className={styles.btn} data-aos="fade-up">
+                <CustomButton href='/about'>Know More About Us</CustomButton>
+                <CustomButton variant={2}>Explore Our Products</CustomButton>
+              </div>
             </div>
           </Col>
           <Col>
@@ -50,11 +64,6 @@ const WhoWeAreSection = () => {
             </div>
           </Col>
         </Row>
-        <br />
-        <div className={styles.btn} data-aos="fade-up">
-          <CustomButton>Know More About Us</CustomButton>
-          <CustomButton variant={2}>Explore Our Products</CustomButton>
-        </div>
       </CustomContainer>
     </div>
   );
