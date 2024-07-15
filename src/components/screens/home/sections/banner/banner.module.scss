@@ -2,9 +2,19 @@
   position: relative;
   overflow: hidden;
   max-width: 100dvw;
+  min-height: 100dvh;
+
+  .loading {
+    position: fixed;
+    background-color: $color_mb;
+    height: 100dvh;
+    width: 100dvw;
+    z-index: 1000;
+    @include flexCenter;
+  }
 
   .bg {
-    background-image: url("/coral_bg.jpg");
+    // background-image: url("/coral_bg.jpg");
     background-size: cover;
     background-position: bottom;
     position: absolute;
@@ -25,7 +35,7 @@
     .overlay {
       width: 100%;
       height: 100%;
-      background-color: rgba(0, 0, 0,0.3);
+      background-color: rgba(0, 0, 0, 0.3);
     }
 
     animation: zoom 40s infinite, focus 1s;
@@ -47,7 +57,7 @@
       max-width: 900px;
       font-weight: 200;
       margin-bottom: 50px;
-    //  color: $color_mb;
+      //  color: $color_mb;
     }
 
     .arrow {
