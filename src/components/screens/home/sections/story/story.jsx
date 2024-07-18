@@ -69,8 +69,15 @@ const OurStorySection = () => {
         <h2 data-aos="fade-up" data-aos-delay="100">
           The Virgin Attempt
         </h2>
-        <div className={styles.logo}>
-          <Image src="vashini_logo.svg" fluid />
+        <div className={styles.logo} data-aos="fade-down">
+          <Image src="vashini_logo.svg" fluid alt="vashini_logo" />
+        </div>
+        <div className={styles.as}>
+          <div className={styles.year2} >
+            <p data-aos="fade-up">1996</p>
+            <div className={styles.strip} data-aos="fade-up"/>
+          </div>
+          <br />
         </div>
         <div
           className={`${styles.top}`}

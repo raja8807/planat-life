@@ -6,7 +6,7 @@
     text-align: center;
   }
 
-  .logo{
+  .logo {
     @include flexCenter;
     padding: 20px 0;
   }
@@ -95,7 +95,6 @@
         }
         display: flex;
         .node {
-          
           width: 100px;
           height: 2px;
           background-color: $color_g5;
@@ -159,4 +158,29 @@
   z-index: 10;
   width: fit-content;
   margin: auto;
+}
+
+.year2 {
+  text-align: center;
+  z-index: 2;
+  color: white;
+  font-weight: 600;
+  @include flexCenter;
+  position: relative;
+  p {
+    background-color: $color_g5;
+    padding: 10px 40px;
+    border: 2px solid $color_g4;
+    width: fit-content;
+    border-radius: 10px;
+  }
+
+  .strip {
+    width: 2px;
+    height: 100px;
+    bottom: -60px;
+    z-index: -1;
+    position: absolute;
+    background-color: $color_g5;
+  }
 }

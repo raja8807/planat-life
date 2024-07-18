@@ -10,44 +10,48 @@ const MatureAttempt = () => {
         style={{
           textAlign: "center",
         }}
+        data-aos="fade-up"
       >
         The Mature Attempt
       </h2>
       <br />
-      <Row>
-        <Col xs={12} lg={5}>
-          <div className={styles.right}>
+      <Row data-aos="fade-up">
+        <Col xs={12} lg={4}>
+          <div className={styles.logo}>
             <Image src="/gviro_logo.png" alt="farm" fluid />
             {/* <div>Since 1970</div> */}
           </div>
           <br />
         </Col>
-        <Col xs={12} lg={7}>
+        <Col xs={12} lg={8}>
           <div className={styles.left}>
             <h2>The GreenViro</h2>
             <p>
-              Decades ago, we began our journey trading in agricultural products
-              with a primary focus on profitability. As we delved deeper into
-              environmental issues, we realized the critical importance of
-              sustainable products and ecological solutions for the well-being
-              of our planet. This realization ignited our passion and reshaped
-              our vision. Rather than just profit, we began measuring the
-              positive impact we create. This shift brings us immense joy and
-              complete satisfaction, knowing we contribute to a healthier and
-              happier Earth.
+              GreenViro began with a mission to give back to Mother Earth by
+              recycling farm waste into efficient charcoal. Our innovative
+              process produces charcoal that&apos;s three times more
+              energy-efficient and emits less CO2. This approach helps farmers
+              manage waste and offers the public a superior, eco-friendly
+              barbecue experience.
             </p>
           </div>
         </Col>
       </Row>
-      <br />
-      {/* <h2
-        style={{
-          textAlign: "center",
-        }}
-      >
-        Achievements & Awards
-      </h2>
-      <br /> */}
+
+      <div className={styles.char}>
+        <Row>
+          <Col xs={12} md={6}>
+            <div className={styles.img1}>
+              <Image src="/assets/images/charcoal.jpg" alt="charcoal" fluid />
+            </div>
+          </Col>
+          <Col xs={12} md={6}>
+            <div className={styles.img2}>
+              <Image src="/assets/images/charcoal2.jpg" alt="charcoal" fluid />
+            </div>
+          </Col>
+        </Row>
+      </div>
 
       <div
         style={{

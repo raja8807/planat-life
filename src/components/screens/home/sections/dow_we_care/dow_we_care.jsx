@@ -22,7 +22,7 @@ const DoWeCareSection = () => {
       id: "2",
       head: "Resource Depletion",
       img: "rig1.jpg",
-      text: "They are made from non-renewable petroleum and natural gas resources.",
+      text: "Plastics are made from non-renewable petroleum and natural gas resources.",
     },
     {
       id: "3",

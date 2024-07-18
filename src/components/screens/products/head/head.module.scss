@@ -3,7 +3,7 @@
     padding: 20px;
 
     h2 {
-      font-weight: 400;
+      font-weight: 300;
       font-size: 40px;
       color: $color_g4;
     }
@@ -11,6 +11,12 @@
     p {
       font-size: 18px;
       font-weight: 300;
+    }
+
+    @include respond-below(md) {
+      h2 {
+        font-size: 30px;
+      }
     }
   }
 
@@ -28,9 +34,9 @@
     > div {
       position: absolute;
       background-color: white;
-      font-size: 30px;
+      font-size: 20px;
       padding: 10px 20px;
-      bottom: -20px;
+      bottom: 0px;
       left: 50%;
       border-radius: 10px;
       transform: translate(-50%, 0);

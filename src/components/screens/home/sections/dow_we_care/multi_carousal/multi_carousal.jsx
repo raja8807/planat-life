@@ -3,6 +3,7 @@ import "react-multi-carousel/lib/styles.css";
 
 import React from "react";
 import { VCard } from "../infinite_scroll/infinite_scroll";
+import styles from './multi_caorsal.module.scss'
 
 const MultiCarousal = ({ cards }) => {
   const responsive = {
@@ -27,6 +28,7 @@ const MultiCarousal = ({ cards }) => {
       style={{
         position: "relative",
       }}
+      className={styles.Carousel}
     >
       <Carousel
         additionalTransfrom={0}

@@ -1,5 +1,4 @@
 .MatureAttempt {
-
   @include respond-below(md) {
     text-align: center;
   }
@@ -18,6 +17,10 @@
     font-size: 18px;
     font-weight: 300;
   }
+}
+
+.logo {
+  @include flexCenter;
 }
 
 .right {
@@ -41,5 +44,40 @@
     left: 50%;
     border-radius: 10px;
     transform: translate(-50%, 0);
+  }
+}
+
+.char {
+  margin-bottom: 20px;
+  .img1 {
+    padding: 20px;
+    display: flex;
+    justify-content: flex-end;
+
+    img {
+      width: 300px;
+      border-radius: 10px;
+    }
+  }
+  .img2 {
+    padding: 20px;
+
+    img {
+      width: 300px;
+      border-radius: 10px;
+    }
+  }
+
+  @include respond-below(md) {
+    .img1 {
+      img {
+        width: 100%;
+      }
+    }
+    .img2 {
+      img {
+        width: 100%;
+      }
+    }
   }
 }

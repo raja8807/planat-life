@@ -37,6 +37,7 @@ const BannerSection = () => {
               className={fonts.HeadFont}
               data-aos="fade-in"
               data-aos-delay="1000"
+              data-aos-duration="3000"
             >
               We have thousands of suns and moons, but only one Earth to cherish
             </h1>

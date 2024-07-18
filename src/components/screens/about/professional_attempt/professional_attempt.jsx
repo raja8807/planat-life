@@ -4,7 +4,7 @@ import CustomButton from "@/components/ui/custom_button/custom_button";
 
 const ProfessionalAttempt = () => {
   return (
-    <div className={styles.ProfessionalAttempt}>
+    <div className={styles.ProfessionalAttempt} data-aos="fade-up">
       <h2
         style={{
           textAlign: "center",
@@ -32,7 +32,7 @@ const ProfessionalAttempt = () => {
           textAlign: "center",
         }}
       >
-        <CustomButton variant={2}>Explore Our Range of Products</CustomButton>
+        <CustomButton variant={2} href='/products'>Explore Our Range of Products</CustomButton>
       </div>
     </div>
   );

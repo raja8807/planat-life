@@ -12,10 +12,9 @@ const WhoWeAreSection = () => {
       <SectionHeading heading="Who We Are?" variant={3} />
       <CustomContainer>
         <br />
-        <br />
-        <br />
+     
         <Row>
-          <Col xs={12} lg={6}>
+          <Col xs={12} >
             <div data-aos="fade-left">
               {/* <h3>The Vashini Agro</h3> */}
               {/* <p>
@@ -56,13 +55,13 @@ const WhoWeAreSection = () => {
               </div>
             </div>
           </Col>
-          <Col>
+          {/* <Col>
             <div className={styles.logos} data-aos="fade-left">
               <Image src="/vashini_logo.svg" alt="vashini_logo" fluid />
               <br />
               <Image src="/gviro_logo.png" alt="vashini_logo" fluid />
             </div>
-          </Col>
+          </Col> */}
         </Row>
       </CustomContainer>
     </div>

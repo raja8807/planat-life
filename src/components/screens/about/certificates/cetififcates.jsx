@@ -9,10 +9,11 @@ const Certificates = () => {
         style={{
           textAlign: "center",
         }}
+        data-aos="fade-up"
       >
-        Our Certificates
+        Our Certifications
       </h2>
-      <Row>
+      <Row data-aos="fade-up">
         <Col xs={4} md={3} lg={2}>
           <Image width={150}
             fluid
